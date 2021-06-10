@@ -1,0 +1,24 @@
+.text{
+    font-family: Poppins, sans-serif;
+    margin: 6rem 4.5rem;
+    max-width: 55rem;
+}
+
+.text h1{
+    font-size: 4rem;
+}
+
+.text h3{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+
+.conteudo-1{
+    display: flex;
+}
+
+.slide{
+    max-width: 51rem;
+    max-height: 49rem;
+}

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.cards{
+    display: flex;
+    align-items: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    margin: 0 4rem;
+    
+}
+
+.card-menu{
+    display: flex;
+    align-items: center;
+    /* justify-content:flex-start; */
+    flex-direction: column; 
+    background-color:#fff;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    height: 372px;
+    width:275px;
+
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+}
+
+.card-menu h1{
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.card-menu h3{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    
+}
