@@ -39,3 +39,42 @@
     margin-left: 4rem;
     
 }
+
+.smartwatch-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    margin-right: 5rem;
+}
+
+@media all and (max-width: 1000px) {
+    .cards{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-menu{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    .card-menu h1{
+        text-align: center;
+    }
+
+    .card-menu h3{
+        text-align: center;
+    }
+
+    .smartwatch-option{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}

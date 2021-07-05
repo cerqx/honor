@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
 
+
 function Header() {
 
     const [open, setOpen] = useState(false);
@@ -36,7 +37,13 @@ function Header() {
 
                     <li className='options'>
                         <Link to='/products' className='options'>
-                            Products
+                            Produtos
+                        </Link>
+                    </li>
+
+                    <li className='options'>
+                        <Link to='/cart' className='options'>
+                            Carrinho
                         </Link>
                     </li>
                 </ul>    

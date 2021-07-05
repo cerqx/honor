@@ -24,3 +24,13 @@
 .react-slideshow-container .default-nav:hover{
   background-color: rgb(221, 221, 221);
 }
+
+@media all and (max-width: 1000px) {
+  .each-slide{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+  }
+}
